@@ -3,3 +3,33 @@
 /* 回答はここに書いてね */
 
 /* 回答はここに書いてね */
+.q2__content {
+  width: 940px;
+  background-color: #eff3f4;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box
+}
+
+.clearfix::after {
+  /* content: "";
+  display: block;
+  clear: both; */
+}
+
+.q2__content__box .img__left {
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+.q2__content__text {
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.img__right {
+  float: right;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
