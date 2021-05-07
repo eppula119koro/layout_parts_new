@@ -3,3 +3,44 @@
 /* 回答はここに書いてね */
 
 /* 回答はここに書いてね */
+.q3__box {
+  width: 100%;
+}
+
+.q3__box__table {
+  table-layout: fixed;
+  width: 100%;
+}
+
+.category__name, .menu__item:first-child {
+  background-color: #2244aa;
+  color: #FFFFFF;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.category__name {
+  border: 1px solid #dedede;
+  padding: 10px 0;
+  
+}
+
+.menu__item:not(.menu__item:first-child)  {
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.menu:nth-child(3), .menu:nth-child(5) {
+  background-color: #ecf1f2;
+}
+
+.menu:last-child {
+  border-top: dashed #000 2px;
+}
+
+.menu__item {
+  border: 1px solid #dedede;
+  padding: 10px 0;
+  text-align: center;
+}
+
