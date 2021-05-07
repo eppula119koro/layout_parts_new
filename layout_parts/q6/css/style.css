@@ -3,3 +3,22 @@
 /* 回答はここに書いてね */
 
 /* 回答はここに書いてね */
+
+.textalign__content {
+  text-align: center;
+}
+
+.textalign__text {
+  width: 90px;
+  background-color: #e6f2ff;
+  display: inline-block;
+  padding: 10px 0;
+}
+
+.margin__text {
+  width: 90px;
+  margin: 0 auto;
+  background-color: #e6f2ff;
+  text-align: center;
+  padding: 10px 0;
+}
