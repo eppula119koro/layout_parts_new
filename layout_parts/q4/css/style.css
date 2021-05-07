@@ -3,3 +3,51 @@
 /* 回答はここに書いてね */
 
 /* 回答はここに書いてね */
+.q4__content {
+  width: 100%;
+  background: #ecf1f2;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.q4__content__box:first-child {
+  margin-bottom: 20px;
+}
+
+.q4__content__box {
+  display: table;
+  width: 100%;
+  text-align: center;
+}
+
+.orange, .pink, .blue, .yellow, .red, .green {
+  display: table-cell;
+  padding: 20px 0;
+}
+
+.orange {
+  background-color: #fdc8b8;
+  width: 100px;
+}
+
+.pink {
+  background-color: #e0abd9;
+}
+
+.blue {
+  background-color: #b6d8ed;
+  width: 100px;
+}
+
+.yellow {
+  background-color: #e5d32e;
+}
+
+.red {
+  background-color: #ec8f9a;
+}
+
+.green {
+  background-color: #8fdcad;
+  width: 500px;
+}
