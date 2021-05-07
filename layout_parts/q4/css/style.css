@@ -20,7 +20,7 @@
   text-align: center;
 }
 
-.orange, .pink, .blue, .yellow, .red, .green {
+.content__block {
   display: table-cell;
   padding: 20px 0;
 }
