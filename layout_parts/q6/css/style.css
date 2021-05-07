@@ -22,3 +22,54 @@
   text-align: center;
   padding: 10px 0;
 }
+
+.table__box {
+  display: table;
+}
+
+.table__content {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.table__text {
+  display: inline-block;
+  padding: 10px;
+  background-color: #fff;
+}
+
+.flex__content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex__text {
+  padding: 10px;
+  background-color: #fff;
+}
+
+.stable__content {
+  position: relative;
+}
+
+.stable__text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.flexible__content {
+  position: relative;
+}
+
+.flexible__text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+}
