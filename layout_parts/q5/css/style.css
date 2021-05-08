@@ -21,7 +21,6 @@
   position: absolute;
 }
 
-
 .pink::before {
   content: '';
   background-color: #ffefd3;
@@ -30,7 +29,6 @@
   position: absolute;
   left: 80px;
 }
-
 
 .pink {
   background-color: #de70cf;
@@ -87,6 +85,7 @@
   left: 360px;
   z-index: 2;
 }
+
 .blue {
   background-color: #2b69a3;
   position: fixed;
