@@ -11,12 +11,6 @@
   box-sizing: border-box
 }
 
-.clearfix::after {
-  /* content: "";
-  display: block;
-  clear: both; */
-}
-
 .q2__content__box .img__left {
   float: left;
   margin-right: 20px;

@@ -3,17 +3,18 @@
 /* 回答はここに書いてね */
 
 /* 回答はここに書いてね */
-.q1__content {
-  width: 900px;
-  background-color: #eff3f4;
-  margin: 0 auto;
-  padding: 20px;
-}
 
 .clearfix::after {
   content: "";
   display: block;
   clear: both;
+}
+
+.q1__content {
+  width: 900px;
+  background-color: #eff3f4;
+  margin: 0 auto;
+  padding: 20px;
 }
 
 .q1__content__box {

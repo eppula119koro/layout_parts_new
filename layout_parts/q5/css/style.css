@@ -46,7 +46,7 @@
   z-index: 4;
 }
 
-.skincolor {
+.skin_color {
   background-color: #ffefd3;
   top: 40px;
   left: 200px;
@@ -60,7 +60,7 @@
   z-index: 6;
 }
 
-.darkbrown {
+.dark_brown {
   background-color: #8b7a5e;
   top: 280px;
   left: 280px;
@@ -74,7 +74,7 @@
   z-index: 5;
 }
 
-.paleblue {
+.pale_blue {
   background-color: #7084de;
   top: 120px;
   left: 280px;

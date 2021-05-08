@@ -4,11 +4,11 @@
 
 /* 回答はここに書いてね */
 
-.textalign__content {
+.text_align__content {
   text-align: center;
 }
 
-.textalign__text {
+.text_align__text {
   width: 90px;
   background-color: #e6f2ff;
   display: inline-block;
@@ -71,5 +71,5 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translateY(-50%) translateX(-50%);
+  transform: translate(-50%, -50%);
 }
