@@ -11,13 +11,14 @@
 }
 
 .q4__content__box:first-child {
-  margin-bottom: 20px;
+  margin-top: 0px;
 }
 
 .q4__content__box {
   display: table;
   width: 100%;
   text-align: center;
+  margin-top: 20px;
 }
 
 .content__block {
