@@ -1,5 +1,32 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.balloon {
+  width: 500px;
+  position: relative;
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 16px;
+  padding: 20px;
+  border: solid 5px #222;
+  border-radius: 30px;
+}
 
+.balloon::before, .balloon::after {
+  content: "";
+  position: absolute;
+  left: 30px;
+  border: 20px solid transparent;
+}
+
+.balloon::before {
+  bottom: -38px;
+  border-top: 20px solid #FFF;
+  z-index: 1;
+}
+
+.balloon::after {
+  bottom: -45px;
+  border-top: 20px solid #222;
+}
 /* 回答はここに書いてね */
