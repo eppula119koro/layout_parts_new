@@ -11,13 +11,11 @@
 }
 
 .q8__transition:hover .transition__img {
-  transform:scale(1.5,1.5);
-  transition:0.5s all;
+  transform:scale(1.5);
 }
 
 .q8__transition:hover .transition__block {
   top: 0;
-  transition:0.5s all;
 }
 
 .transition__img {
@@ -60,9 +58,8 @@
 
 @keyframes spin
 {
-    0% { transform: rotate(0deg); }
-    50%  { transform: rotate(180deg); }
-    100%   { transform: rotate(360deg); }
+  0% { transform: rotate(0deg); }
+  100%   { transform: rotate(360deg); }
 }
 
 /* 回答はここに書いてね */
